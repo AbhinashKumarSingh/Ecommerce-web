@@ -1,67 +1,78 @@
-
-const data ={
+const data={
     products:[
         {
-        __id:'1',
-        name:'Sparky Jeans',
-        category:'Jeans',
-        image:'/images/p1.jpg',
-        price:120,
-        countInStock:10,
-        brand:"Sparky",
-        rating:4.5,
-        numReviews:10,
-        description:'high quality product'
-    },
-    {
-        __id:'2',
-        name:'Netplay Jeans',
-        category:'Jeans',
-        image:'/images/p2.jpg',
-        price:120,
-        countInStock:20,
-        brand:"Netplay",
-        rating:4.5,
-        numReviews:10,
-        description:'high quality product'
-    },
-    {
-        __id:'3',
-        name:'Calvin Jeans',
-        category:'Jeans',
-        image:'/images/p4.jpg',
-        price:120,
-        countInStock:30,
-        brand:"Calvin",
-        rating:4.5,
-        numReviews:10,
-        description:'high quality product'
-    },
-    {
-        __id:'4',
-        name:'Jockey Jeans',
-        category:'Jeans',
-        image:'/images/p4.jpg',
-        price:120,
-        countInStock:0,
-        brand:"Jockey",
-        rating:4.5,
-        numReviews:10,
-        description:'high quality product'
-    },
-    {
-        __id:'5',
-        name:'Adidas Jeans',
-        category:'Jeans',
-        image:'/images/p5.jpg',
-        price:120,
-        countInStock:1,
-        brand:"Adidas",
-        rating:4.5,
-        numReviews:10,
-        description:'high quality product'
-    }
-]
+            _id:'1',
+            name:'Nike Slim Shirt',
+            category:'Shirts',
+            image:'/images/p1.jpg',
+            price:600,
+            brand:'Nike',
+            rating:4.5,
+            numReviews:10,
+            countInStock:13,
+            description:'high quality'
+        }
+        ,
+        {
+           
+            name:'Adidas Slim Shirt',
+            category:'Shirts',
+            image:'/images/p2.jpg',
+            price:500,
+            brand:'Adidas',
+            rating:4.0,
+            numReviews:10,
+            countInStock:0,
+            description:'high quality'
+        },
+        {
+            
+            name:'Lacoste Slim Shirt',
+            category:'Shirts',
+            image:'/images/p3.jpg',
+            price:700,
+            brand:'Lacoste',
+            rating:4.5,
+            numReviews:10,
+            countInStock:20,
+            description:'high quality'
+        },
+        {
+            _id:'4',
+            name:'Nike Slim Pant',
+            category:'Pants',
+            image:'/images/p4.jpg',
+            price:900,
+            brand:'Nike',
+            rating:4.5,
+            numReviews:10,
+            countInStock:0,
+            description:'high quality'
+        },
+        {
+            _id:'5',
+            name:'Pumsa Slim Shirt',
+            category:'Shirts',
+            image:'/images/p5.jpg',
+            price:800,
+            brand:'Puma',
+            rating:4.5,
+            numReviews:10,
+            countInStock:10,
+            description:'high quality'
+        },
+        {
+            _id:'6',
+            name:'Adidas Slim Shirt',
+            category:'Shirts',
+            image:'/images/p2.jpg',
+            price:1000,
+            brand:'Adidas',
+            rating:4.5,
+            numReviews:15,
+            countInStock:15,
+            description:'high quality'
+        }
+    ]
 }
-
 export default data;
